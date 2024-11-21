@@ -32,7 +32,7 @@ Partial Class Form1
         Me.WebView21.AllowExternalDrop = True
         Me.WebView21.CreationProperties = Nothing
         Me.WebView21.DefaultBackgroundColor = System.Drawing.Color.White
-        Me.WebView21.Location = New System.Drawing.Point(63, 54)
+        Me.WebView21.Location = New System.Drawing.Point(48, 51)
         Me.WebView21.Name = "WebView21"
         Me.WebView21.Size = New System.Drawing.Size(911, 558)
         Me.WebView21.TabIndex = 0
@@ -52,7 +52,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1056, 681)
+        Me.ClientSize = New System.Drawing.Size(1000, 720)
         Me.Controls.Add(Me.lblNext)
         Me.Controls.Add(Me.WebView21)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None

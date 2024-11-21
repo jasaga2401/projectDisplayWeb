@@ -33,14 +33,14 @@ Partial Class pgOldBrowser
         Me.WebBrowser1.Location = New System.Drawing.Point(97, 47)
         Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
         Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.Size = New System.Drawing.Size(718, 465)
+        Me.WebBrowser1.Size = New System.Drawing.Size(791, 478)
         Me.WebBrowser1.TabIndex = 0
         '
         'lblNext
         '
         Me.lblNext.AutoSize = True
         Me.lblNext.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblNext.Location = New System.Drawing.Point(741, 544)
+        Me.lblNext.Location = New System.Drawing.Point(782, 544)
         Me.lblNext.Name = "lblNext"
         Me.lblNext.Size = New System.Drawing.Size(52, 25)
         Me.lblNext.TabIndex = 1
@@ -50,7 +50,7 @@ Partial Class pgOldBrowser
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(918, 602)
+        Me.ClientSize = New System.Drawing.Size(982, 673)
         Me.Controls.Add(Me.lblNext)
         Me.Controls.Add(Me.WebBrowser1)
         Me.Name = "pgOldBrowser"

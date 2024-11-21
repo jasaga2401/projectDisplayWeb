@@ -50,7 +50,7 @@ Partial Class pgPanelViewWeb
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(923, 591)
+        Me.ClientSize = New System.Drawing.Size(1000, 720)
         Me.Controls.Add(Me.lblNext)
         Me.Controls.Add(Me.lblOpenWebPage)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None

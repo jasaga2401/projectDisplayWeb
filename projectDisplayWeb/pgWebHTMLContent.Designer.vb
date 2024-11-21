@@ -24,6 +24,7 @@ Partial Class pgWebHTMLContent
     Private Sub InitializeComponent()
         Me.lblTitle = New System.Windows.Forms.Label()
         Me.WebBrowser2 = New System.Windows.Forms.WebBrowser()
+        Me.lblNext = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'lblTitle
@@ -44,11 +45,22 @@ Partial Class pgWebHTMLContent
         Me.WebBrowser2.Size = New System.Drawing.Size(678, 410)
         Me.WebBrowser2.TabIndex = 2
         '
+        'lblNext
+        '
+        Me.lblNext.AutoSize = True
+        Me.lblNext.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblNext.Location = New System.Drawing.Point(678, 526)
+        Me.lblNext.Name = "lblNext"
+        Me.lblNext.Size = New System.Drawing.Size(62, 29)
+        Me.lblNext.TabIndex = 3
+        Me.lblNext.Text = "Next"
+        '
         'pgWebHTMLContent
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(839, 578)
+        Me.ClientSize = New System.Drawing.Size(1000, 720)
+        Me.Controls.Add(Me.lblNext)
         Me.Controls.Add(Me.WebBrowser2)
         Me.Controls.Add(Me.lblTitle)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -61,4 +73,5 @@ Partial Class pgWebHTMLContent
     End Sub
     Friend WithEvents lblTitle As Label
     Friend WithEvents WebBrowser2 As WebBrowser
+    Friend WithEvents lblNext As Label
 End Class

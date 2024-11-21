@@ -4,4 +4,11 @@
         WebBrowser2.DocumentText = "<html><body><h1>Hello World!</h1></body></html>"
 
     End Sub
+
+    Private Sub lblNext_Click(sender As Object, e As EventArgs) Handles lblNext.Click
+
+        pgCefSharp.Show()
+        Me.Hide()
+
+    End Sub
 End Class
